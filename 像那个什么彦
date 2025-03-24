@@ -1,0 +1,50 @@
+const App = () => {
+  return (
+    <>
+      <section id="about" className="min-h-screen flex items-center justify-center bg-slate-600">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold mt-4">彭于晏 (Eddie Peng)</h1>
+          <p className="text-xl mt-2">演员、模特、健身达人</p>
+          <p className="text-lg mt-2">出生于1982年3月24日，加拿大籍华裔演员。</p>
+        </div>
+      </section>
+      <section id="interests" className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold mb-8">兴趣爱好</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
+              <h3 className="text-xl font-semibold">旅行</h3>
+              <p className="mt-2">喜欢探索世界各地的风景和文化。</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
+              <h3 className="text-xl font-semibold">摄影</h3>
+              <p className="mt-2">热爱用镜头记录生活中的美好瞬间。</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
+              <h3 className="text-xl font-semibold">阅读</h3>
+              <p className="mt-2">喜欢阅读哲学、历史和文学类书籍。</p>
+            </div>
+          </div>
+          <img src="/img/neta3.png" alt="neta3" className="mt-8 mx-auto" 
+                   style={{width:'400px',height:'600px'}}/> 
+         </div>
+        <section className="bg-slate-100 p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
+          <div className="text-center">
+            <h4 className="text-4xl font-semibold">不对</h4> 
+            <div className="flex items-center justify-center mt-5">
+              <p className="text-3xl mr-4">不是哥们怎么又把我照片发出来了</p>
+              <img 
+                src="/img/neta4.jpg" 
+                alt="neta4" 
+                className="rounded-lg shadow-md"
+                style={{width:'200px',height:'150px'}}
+              />                     
+           </div>
+          </div> 
+        </section>
+      </section>
+    </>
+  );
+};
+
+export default App;
